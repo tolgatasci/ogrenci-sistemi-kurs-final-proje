@@ -3,7 +3,7 @@ from tkinter import ttk, TOP, messagebox
 
 from tkintermodules.EntryWithPlaceholder import EntryWithPlaceholder
 
-from libs.Database import Database
+from mylibrary.Database import Database
 class LoginRegister(tk.Tk):
     def __init__(self):
         super().__init__()
