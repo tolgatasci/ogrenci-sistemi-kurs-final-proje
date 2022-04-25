@@ -5,11 +5,11 @@ import tkinter as tk
 from tkinter import ttk, TOP, messagebox, BOTTOM
 from tkinter.messagebox import askyesno
 
-from lib.CreateStutent import CreateStudent
-from lib.UpdateStudent import UpdateStudent
+from libs.CreateStutent import CreateStudent
+from libs.UpdateStudent import UpdateStudent
 from tkintermodules.EntryWithPlaceholder import EntryWithPlaceholder
 from PIL import ImageTk, Image
-from lib.Database import Database
+from libs.Database import Database
 from tkintermodules.MenuBuilder import MenuBuilder
 
 
