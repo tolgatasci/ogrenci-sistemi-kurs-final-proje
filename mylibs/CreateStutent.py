@@ -171,6 +171,7 @@ class CreateStudent(tk.Toplevel):
             (self.ogrenci_adi_soyadi.get(), self.ogrenci_dyeri.get(), self.ogrenci_dtarihi.get(),
              self.ogrenci_ogrenimturu.get(), self.ogrenci_il.get(), self.ogrenci_ilce.get(),
              self.ogrenci_adres.get(), self.my_img))
+        self.app.database.db.commit()
         self.app.ogrenci_listele()
         messagebox.showinfo("Ekleme İşlemi", "Başarılı!")
         self.destroy()
